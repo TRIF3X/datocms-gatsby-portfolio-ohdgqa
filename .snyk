@@ -620,3 +620,6 @@ patch:
         patched: '2019-07-12T13:19:21.654Z'
     - gatsby > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
         patched: '2019-07-12T13:19:21.654Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - gatsby-source-datocms > datocms-client > https-proxy-agent:
+        patched: '2019-10-04T08:40:35.166Z'
