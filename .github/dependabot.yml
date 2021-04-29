@@ -1,0 +1,52 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby
+    versions:
+    - 2.31.1
+    - 2.32.0
+    - 2.32.1
+    - 2.32.10
+    - 2.32.11
+    - 2.32.2
+    - 2.32.3
+    - 2.32.4
+    - 2.32.7
+    - 2.32.8
+    - 2.32.9
+  - dependency-name: gatsby-source-datocms
+    versions:
+    - 2.5.10
+    - 2.5.11
+    - 2.5.12
+    - 2.5.14
+    - 2.5.16
+    - 2.5.17
+    - 2.5.18
+    - 2.5.8
+    - 2.5.9
+    - 2.6.10
+    - 2.6.11
+    - 2.6.12
+    - 2.6.4
+    - 2.6.6
+    - 2.6.7
+  - dependency-name: gatsby-source-filesystem
+    versions:
+    - 2.10.0
+    - 2.11.0
+  - dependency-name: gatsby-plugin-react-helmet
+    versions:
+    - 3.9.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
